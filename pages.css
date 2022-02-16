@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto:ital,wght@0,100;0,300;1,100;1,400&display=swap");
+
+:root {
+  --main: #ad0000;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.cta {
+  width: 28.133vw;
+  height: 4.208vw;
+  border-radius: 0.977vw;
+  font-family: "Merriweather";
+  background-color: var(--main);
+  font-size: 2.2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  transition: 0.2s;
+}
+
+.cta:hover {
+  width: 28.333vw;
+  height: 4.402vw;
+  transition: 0.2s;
+  background-color: #d10303;
+}
+
+nav {
+  height: 4.51vw;
+  background-color: var(--main);
+  width: 100%;
+  overflow: hidden;
+  position: static;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav:hover {
+  background-color: #d10303;
+  transition: 0.3s;
+}
+
+.logo {
+  width: 12.341vw;
+  margin-left: 5.404vw;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3vw;
+  font-family: "Roboto";
+  font-weight: 100;
+  margin-left: 4vw;
+}
+
+.nav-links a {
+  padding: 1.5vw;
+  transition: 0.2s;
+}
+
+.social-networks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.5vw;
+  opacity: 0.7;
+}
+
+.social-networks:hover {
+  opacity: 1;
+}
+
+nav a:hover {
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.header {
+  background-image: url(assets/laser.png);
+  background-repeat: no-repeat;
+  background-size: 71vw 34vw;
+  height: 34vw;
+  opacity: 0.9;
+}
+
+.header-makeup {
+  background-image: url(assets/makeup.png);
+  background-repeat: no-repeat;
+  background-size: 38vw 34vw;
+  height: 34vw;
+  display: flex;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.header-teeth {
+  background-image: url(assets/teeth.png);
+  background-repeat: no-repeat;
+  background-size: 43vw 45vw;
+  opacity: 0.9;
+  height: 34vw;
+  display: flex;
+  align-items: center;
+}
+
+.empty {
+  width: 50vw;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 41.602vw;
+  align-items: center;
+  position: absolute;
+  right: 4vw;
+}
+
+h1 {
+  font-family: "Merriweather";
+  font-weight: 400;
+  color: black;
+  font-size: 5.859vw;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+h3 {
+  font-weight: 100;
+  color: black;
+  font-size: 1.5vw;
+}
+
+h4 {
+  font-size: 1vw;
+}
+
+p {
+  font-size: 1vw;
+}
+
+.text p {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 1.172vw;
+}
+
+.middle {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.strip {
+  height: 4.51vw;
+  background-color: var(--main);
+  width: 100%;
+  overflow: hidden;
+  font-family: "Merriweather";
+  color: white;
+  font-size: 1.255vw;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.gallery img {
+  width: 25vw;
+  margin: 1vw;
+}
+
+.process {
+  display: flex;
+  width: 83vw;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.teeth {
+  width: 18vw;
+}
+
+.process img {
+  width: 18vw;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topic {
+  width: 70vw;
+  text-align: left;
+}
+
+.gender {
+  justify-content: space-around;
+  width: 70vw;
+}
+
+.container h3 {
+  font-family: "Merriweather";
+  font-weight: 100;
+  font-size: 1.5vw;
+  margin: 2vw 0 1vw;
+}
+
+.container h4 {
+  font-family: "Merriweather";
+  font-weight: 100;
+  font-size: 1.2vw;
+  margin: 1vw 0 1vw;
+}
+
+.block {
+  margin-right: 3vw;
+}
+
+.container h5 {
+  font-size: 1.1vw;
+  font-weight: 300;
+  text-align: right;
+}
+
+span {
+  font-family: "Merriweather";
+  font-weight: bold;
+}
+
+footer {
+  height: 25vh;
+  background-color: var(--main);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  opacity: 0.7;
+  margin-right: 4vw;
+}
+
+.footer-links a,
+.footer-links span {
+  font-family: "Roboto";
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 740px) {
+  .process {
+    flex-flow: wrap;
+  }
+}
