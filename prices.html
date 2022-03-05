@@ -10,28 +10,39 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="pages.css" />
+    <link rel="stylesheet" href="pages1.css" />
   </head>
   <body>
-    <nav>
-      <a href="index.html"
-        ><img src="assets/logo.png" alt="JK Beauty Studio" class="logo"
-      /></a>
-      <div class="nav-links">
-        <a href="laser.html">Лазерная эпиляция</a>
-        <a href="whitening.html">Косметическое отбеливание зубов</a>
-        <a href="makeup.html">Перманентный макияж</a>
-        <a href="prices.html">Цены</a>
-      </div>
-      <div class="social-networks">
-      <a href="https://www.instagram.com/julija_kovaluka_nails/"
-        ><i class="fab fa-instagram"></i
-      ></a>
-      <a href="https://www.facebook.com/JK-Beauty-studio-112024648075250"
-        ><i class="fab fa-facebook"></i
-      ></a>
+    <!-- Menu overlay -->
+    <div class="overlay overlay-slide-left" id="overlay">
+      <!-- Menu items -->
+      <nav>
+        <ul>
+          <li id="nav-1" class="slide-out-1">
+            <a href="index.html">Главная</a>
+          </li>
+          <li id="nav-2" class="slide-out-2">
+            <a href="laser.html">Лазерная эпиляция</a>
+          </li>
+          <li id="nav-3" class="slide-out-3">
+            <a href="whitening.html"
+              >Косметическое<br />
+              отбеливание зубов</a
+            >
+          </li>
+          <li id="nav-4" class="slide-out-4">
+            <a href="makeup.html">Перманентный макияж</a>
+          </li>
+          <li id="nav-5" class="slide-out-5"><a href="prices.html">Цены</a></li>
+        </ul>
+      </nav>
     </div>
-    </nav>
+    <!-- Menu bars -->
+    <div class="menu-bars" id="menu-bars">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
     <div class="middle">
       <h3 style="width: 65vw">
         Ниже представлены цены за услуги. <br />
@@ -42,7 +53,7 @@
         <h2>Лазерная эпиляция</h2>
       </div>
       <div class="price-list">
-        <div class="gender" style="display: flex">
+        <div class="gender">
           <div class="container">
             <h3>Женщины</h3>
             <div class="two-blocks" style="display: flex">
@@ -133,5 +144,6 @@
       <span>Daugavpils, Sakņu iela</span>
     </div>
   </footer>
+  <script src="script.js"></script>
   </body>
 </html>

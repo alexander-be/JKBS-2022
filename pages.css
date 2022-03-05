@@ -90,7 +90,7 @@ nav:hover {
 
 nav a:hover {
   font-weight: 700;
-  transition: 0.2s;
+  /* transition: 0.2s; */
 }
 
 .header {
@@ -257,7 +257,7 @@ span {
 }
 
 footer {
-  height: 25vh;
+  height: 25vw;
   background-color: var(--main);
   width: 100%;
   display: flex;
